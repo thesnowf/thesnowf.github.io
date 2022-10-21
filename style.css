@@ -1,0 +1,22 @@
+body {
+  background-color: #aaffff;
+}
+#test1 {
+  padding: 1px 3px 3px 3px;
+  border: 4px double indigo;
+  margin: 6px;
+  color: indigo;
+}
+#test2 {
+  color: darkgoldenrod;
+  padding: 3px 2px 4px 5px;
+  border: 3px double #ee0c0c;
+  margin: 24px;
+}
+.div13 {
+  color: darkgrey;
+  padding-bottom: 3px 3px 4px 5px;
+  border: 3px double #ee0c0c;
+  margin: 0 auto;
+  width: 50%;
+}
