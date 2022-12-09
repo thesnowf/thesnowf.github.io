@@ -1,14 +1,18 @@
 body {
-  background-color: #aaffff;
+  background-color: rgb(41, 74, 95);
+  height: 3000px;
+}
+#h1{
+  color: rgb(255, 136, 0);
 }
 #test1 {
   padding: 1px 3px 3px 3px;
-  border: 4px double indigo;
+  border: 4px double rgb(255, 0, 0);
   margin: 6px;
   color: indigo;
 }
 #test2 {
-  color: darkgoldenrod;
+  color: rgb(248, 6, 6);
   padding: 3px 2px 4px 5px;
   border: 3px double #ee0c0c;
   margin: 24px;
@@ -20,3 +24,57 @@ body {
   margin: 0 auto;
   width: 50%;
 }
+.fake {
+  background-color: blueviolet;
+  height: 200px;
+}
+.container {
+  background-color: azure;
+  height: 800px;
+}
+img {
+  position: sticky;
+  top: 20px;
+}
+.container {
+  background-color: goldenrod;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.item {
+  background-color: aquamarine;
+  color: darkorchid;
+  width: 50px;
+  font-size: 30px;
+  margin: 20px;
+}
+.item2 {
+  background-color: aquamarine;
+  color: darkorchid;
+  width: 50px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.item3 {
+  background-color: aquamarine;
+  color: darkorchid;
+  width: 100px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  color: aqua;
+}
+.invisible {
+  display: none;
+}
+
